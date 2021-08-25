@@ -34,7 +34,7 @@ If the system is powered continuously, it will continue to print the numbers 12 
 
 **<h1>Flowchart of the Program</h1>**  
 
-![Flowchart](/images/Untitled Diagram.png)  
+![Flowchart](/images/flowchart.png)  
 
 **<h1>Conclusion and Remarks</h1>**  
 
