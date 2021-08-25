@@ -20,3 +20,68 @@ The electronic part of the project consists of two 7 segment displays, Arduino U
 
 After the necessary connections are made, an image like the one below appears. In the image, the simulation has not been started yet.  
 
+![Starting](/images/baslangic.png)  
+
+In the image below, the simulation started to run. In the Arduino code, 18 was entered as the first two digits of the student number. The code obtained the number 18, which is the hexadecimal equivalent of 12, thanks to the code called Converter, and printed it on 7 segment displays thanks to the function called ledBurning.  
+
+![12](/images/12.png)  
+
+In the image below, we see that the hexadecimal equivalent of the number 71 written in the Arduino code, as the last two digits of the student number, is printed on the 7 segment display screens. While doing this, the program continues to work with the logic written above.  
+
+![47](/images/47.png)  
+
+If the system is powered continuously, it will continue to print the numbers 12 and 47 on 7 segment displays, respectively.  
+
+**<h1>Flowchart of the Program</h1>**  
+
+![Flowchart](/images/Untitled Diagram.png)  
+
+**<h1>Conclusion and Remarks</h1>**  
+
+The system is working fine. As long as the Arduino is powered, it will convert the first and last two digits to hexadecimal equivalents at the beginning of the code and print these equivalents to 7 segment displays. I used 2 7-segment common anode displays because the 7-segment display only showed a single digit and I needed to print numbers containing 2 digits at once. Although the connection of the 7-segment display enabling '.' printing was made, it was not used because it did not have a place in the working logic requested from the program. If desired, only the code can be written and run. It does not need any circuit adjustment. I used 74HC595 shift registers, thinking that the less pins I use on the Arduino, the better. There is no apparent problem with the circuit and the code. It converts the defined 2-digit numbers into hexadecimal and prints them. The system will not work properly in numbers entered with 1 digit or 2 or more digits. But since the purpose of the project is that we are asked to translate and print 2-digit numbers, there is no situation or mistake that goes against the purpose of the project. Very user friendly code. The project contributed a lot to me both in terms of electronics knowledge, ability to write codes and algorithms, and most importantly, research skills. To use the 7-segment display, I reviewed the datasheet and connection diagrams on the internet. Likewise, I reviewed datasheet and many video and blog pages for using shift registers. On the code side, while reinforcing my knowledge about void functions, I also learned to use functions within a function.  
+
+**<h1>References</h1>**  
+
+•	Kodlakafa.com  
+•	Alldatasheet.com  
+•	Direnc.net  
+•	Diyot.net  
+•	Elektrikport.com  
+•	Stackoverflow.com  
+•	Algoritmaornekleri.com  
+•	Arduinolibraries.com  
+•	Github.com  
+•	Sanatsalbilgi.com  
+•	Theengineeringprojects.com  
+•	Kontrolkalemi.com  
+•	Elektronikhazirdevreler.blogspot.com  
+•	Rapidtables.com  
+•	Koddefteri.com  
+•	Erhanulman.com  
+•	Forum.donanimhaber.com  
+•	Forum.arduino.cc  
+•	Arduinobasics.blogspot.com  
+•	1.bp.blogspot.com  
+•	Elektrikelektronikegitimi.blogspot.com  
+•	Maker.robotistan.com  
+•	Docs.labs.mediatek.com  
+•	Projehocam.com  
+•	Cagataycebi.com  
+•	Forum.csharpnedir.com  
+•	Edevre.net  
+•	En.wikipedi0.org  
+•	Hayaletveyap.com  
+•	Grafiboyz.blogcu.com  
+•	Aliozcan.org  
+•	Gelecegiyazanlar.turkcell.com.tr  
+•	Iucoders.com  
+•	Sanalkurs.net  
+•	Buraksenyurt.com  
+•	Microcore.com  
+•	Link24in.wordpress.com  
+•	Robotikvekodlama.com  
+•	Soyunmezoglubaris.blogspot.com  
+•	Motorobit.com  
+•	Mobilhanem.com  
+•	Arduinoturkiye.com  
+•	Kodumundunyasi.net  
